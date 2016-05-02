@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF52E0871CD810C2004B6745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E0861CD810C2004B6745 /* main.m */; };
+		EF52E08A1CD810C2004B6745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E0891CD810C2004B6745 /* AppDelegate.m */; };
+		EF52E08D1CD810C2004B6745 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E08C1CD810C2004B6745 /* MasterViewController.m */; };
+		EF52E0901CD810C2004B6745 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E08F1CD810C2004B6745 /* DetailViewController.m */; };
+		EF52E0931CD810C2004B6745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52E0911CD810C2004B6745 /* Main.storyboard */; };
+		EF52E0951CD810C2004B6745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF52E0941CD810C2004B6745 /* Assets.xcassets */; };
+		EF52E0981CD810C2004B6745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52E0961CD810C2004B6745 /* LaunchScreen.storyboard */; };
+		EF52E0A31CD810C2004B6745 /* NASAProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E0A21CD810C2004B6745 /* NASAProjectTests.m */; };
+		EF52E0AE1CD810C2004B6745 /* NASAProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52E0AD1CD810C2004B6745 /* NASAProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF52E09F1CD810C2004B6745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52E07A1CD810C2004B6745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52E0811CD810C2004B6745;
+			remoteInfo = NASAProject;
+		};
+		EF52E0AA1CD810C2004B6745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52E07A1CD810C2004B6745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52E0811CD810C2004B6745;
+			remoteInfo = NASAProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF52E0821CD810C2004B6745 /* NASAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52E0861CD810C2004B6745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF52E0881CD810C2004B6745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF52E0891CD810C2004B6745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF52E08B1CD810C2004B6745 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EF52E08C1CD810C2004B6745 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EF52E08E1CD810C2004B6745 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EF52E08F1CD810C2004B6745 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EF52E0921CD810C2004B6745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF52E0941CD810C2004B6745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF52E0971CD810C2004B6745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF52E0991CD810C2004B6745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52E09E1CD810C2004B6745 /* NASAProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52E0A21CD810C2004B6745 /* NASAProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASAProjectTests.m; sourceTree = "<group>"; };
+		EF52E0A41CD810C2004B6745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52E0A91CD810C2004B6745 /* NASAProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52E0AD1CD810C2004B6745 /* NASAProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASAProjectUITests.m; sourceTree = "<group>"; };
+		EF52E0AF1CD810C2004B6745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF52E07F1CD810C2004B6745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E09B1CD810C2004B6745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E0A61CD810C2004B6745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF52E0791CD810C2004B6745 = {
+			isa = PBXGroup;
+			children = (
+				EF52E0841CD810C2004B6745 /* NASAProject */,
+				EF52E0A11CD810C2004B6745 /* NASAProjectTests */,
+				EF52E0AC1CD810C2004B6745 /* NASAProjectUITests */,
+				EF52E0831CD810C2004B6745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF52E0831CD810C2004B6745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF52E0821CD810C2004B6745 /* NASAProject.app */,
+				EF52E09E1CD810C2004B6745 /* NASAProjectTests.xctest */,
+				EF52E0A91CD810C2004B6745 /* NASAProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF52E0841CD810C2004B6745 /* NASAProject */ = {
+			isa = PBXGroup;
+			children = (
+				EF52E0881CD810C2004B6745 /* AppDelegate.h */,
+				EF52E0891CD810C2004B6745 /* AppDelegate.m */,
+				EF52E08B1CD810C2004B6745 /* MasterViewController.h */,
+				EF52E08C1CD810C2004B6745 /* MasterViewController.m */,
+				EF52E08E1CD810C2004B6745 /* DetailViewController.h */,
+				EF52E08F1CD810C2004B6745 /* DetailViewController.m */,
+				EF52E0911CD810C2004B6745 /* Main.storyboard */,
+				EF52E0941CD810C2004B6745 /* Assets.xcassets */,
+				EF52E0961CD810C2004B6745 /* LaunchScreen.storyboard */,
+				EF52E0991CD810C2004B6745 /* Info.plist */,
+				EF52E0851CD810C2004B6745 /* Supporting Files */,
+			);
+			path = NASAProject;
+			sourceTree = "<group>";
+		};
+		EF52E0851CD810C2004B6745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF52E0861CD810C2004B6745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF52E0A11CD810C2004B6745 /* NASAProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF52E0A21CD810C2004B6745 /* NASAProjectTests.m */,
+				EF52E0A41CD810C2004B6745 /* Info.plist */,
+			);
+			path = NASAProjectTests;
+			sourceTree = "<group>";
+		};
+		EF52E0AC1CD810C2004B6745 /* NASAProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF52E0AD1CD810C2004B6745 /* NASAProjectUITests.m */,
+				EF52E0AF1CD810C2004B6745 /* Info.plist */,
+			);
+			path = NASAProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF52E0811CD810C2004B6745 /* NASAProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52E0B21CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProject" */;
+			buildPhases = (
+				EF52E07E1CD810C2004B6745 /* Sources */,
+				EF52E07F1CD810C2004B6745 /* Frameworks */,
+				EF52E0801CD810C2004B6745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASAProject;
+			productName = NASAProject;
+			productReference = EF52E0821CD810C2004B6745 /* NASAProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF52E09D1CD810C2004B6745 /* NASAProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52E0B51CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectTests" */;
+			buildPhases = (
+				EF52E09A1CD810C2004B6745 /* Sources */,
+				EF52E09B1CD810C2004B6745 /* Frameworks */,
+				EF52E09C1CD810C2004B6745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52E0A01CD810C2004B6745 /* PBXTargetDependency */,
+			);
+			name = NASAProjectTests;
+			productName = NASAProjectTests;
+			productReference = EF52E09E1CD810C2004B6745 /* NASAProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF52E0A81CD810C2004B6745 /* NASAProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52E0B81CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectUITests" */;
+			buildPhases = (
+				EF52E0A51CD810C2004B6745 /* Sources */,
+				EF52E0A61CD810C2004B6745 /* Frameworks */,
+				EF52E0A71CD810C2004B6745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52E0AB1CD810C2004B6745 /* PBXTargetDependency */,
+			);
+			name = NASAProjectUITests;
+			productName = NASAProjectUITests;
+			productReference = EF52E0A91CD810C2004B6745 /* NASAProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF52E07A1CD810C2004B6745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kayla Galway";
+				TargetAttributes = {
+					EF52E0811CD810C2004B6745 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF52E09D1CD810C2004B6745 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF52E0811CD810C2004B6745;
+					};
+					EF52E0A81CD810C2004B6745 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF52E0811CD810C2004B6745;
+					};
+				};
+			};
+			buildConfigurationList = EF52E07D1CD810C2004B6745 /* Build configuration list for PBXProject "NASAProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF52E0791CD810C2004B6745;
+			productRefGroup = EF52E0831CD810C2004B6745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF52E0811CD810C2004B6745 /* NASAProject */,
+				EF52E09D1CD810C2004B6745 /* NASAProjectTests */,
+				EF52E0A81CD810C2004B6745 /* NASAProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF52E0801CD810C2004B6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52E0981CD810C2004B6745 /* LaunchScreen.storyboard in Resources */,
+				EF52E0951CD810C2004B6745 /* Assets.xcassets in Resources */,
+				EF52E0931CD810C2004B6745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E09C1CD810C2004B6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E0A71CD810C2004B6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF52E07E1CD810C2004B6745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52E08A1CD810C2004B6745 /* AppDelegate.m in Sources */,
+				EF52E08D1CD810C2004B6745 /* MasterViewController.m in Sources */,
+				EF52E0871CD810C2004B6745 /* main.m in Sources */,
+				EF52E0901CD810C2004B6745 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E09A1CD810C2004B6745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52E0A31CD810C2004B6745 /* NASAProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52E0A51CD810C2004B6745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52E0AE1CD810C2004B6745 /* NASAProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF52E0A01CD810C2004B6745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52E0811CD810C2004B6745 /* NASAProject */;
+			targetProxy = EF52E09F1CD810C2004B6745 /* PBXContainerItemProxy */;
+		};
+		EF52E0AB1CD810C2004B6745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52E0811CD810C2004B6745 /* NASAProject */;
+			targetProxy = EF52E0AA1CD810C2004B6745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF52E0911CD810C2004B6745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52E0921CD810C2004B6745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF52E0961CD810C2004B6745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52E0971CD810C2004B6745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF52E0B01CD810C2004B6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF52E0B11CD810C2004B6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF52E0B31CD810C2004B6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NASAProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF52E0B41CD810C2004B6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NASAProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF52E0B61CD810C2004B6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NASAProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASAProject.app/NASAProject";
+			};
+			name = Debug;
+		};
+		EF52E0B71CD810C2004B6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NASAProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASAProject.app/NASAProject";
+			};
+			name = Release;
+		};
+		EF52E0B91CD810C2004B6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NASAProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NASAProject;
+			};
+			name = Debug;
+		};
+		EF52E0BA1CD810C2004B6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NASAProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KaylaGalway.NASAProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NASAProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF52E07D1CD810C2004B6745 /* Build configuration list for PBXProject "NASAProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52E0B01CD810C2004B6745 /* Debug */,
+				EF52E0B11CD810C2004B6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF52E0B21CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52E0B31CD810C2004B6745 /* Debug */,
+				EF52E0B41CD810C2004B6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF52E0B51CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52E0B61CD810C2004B6745 /* Debug */,
+				EF52E0B71CD810C2004B6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF52E0B81CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52E0B91CD810C2004B6745 /* Debug */,
+				EF52E0BA1CD810C2004B6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF52E07A1CD810C2004B6745 /* Project object */;
+}
