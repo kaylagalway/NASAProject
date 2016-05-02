@@ -504,6 +504,7 @@
 				EF52E0B41CD810C2004B6745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF52E0B51CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				EF52E0B71CD810C2004B6745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF52E0B81CD810C2004B6745 /* Build configuration list for PBXNativeTarget "NASAProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				EF52E0BA1CD810C2004B6745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
